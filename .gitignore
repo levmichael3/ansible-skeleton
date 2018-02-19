@@ -12,8 +12,8 @@
 # Compiled Python
 *.pyc
 
-# Ignore roles downloaded from Ansible Galaxy
-roles/*.*
+# Ignore secret PEM files
+*.pem
 
 # Test directories. These are Git worktrees to separate test branches
 *tests/
